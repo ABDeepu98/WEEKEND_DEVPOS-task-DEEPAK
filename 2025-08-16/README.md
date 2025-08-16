@@ -1,53 +1,36 @@
-# WEEKEND DevSecOps Git Practice - Deepak JM
-## Date: 2025-08-16
+
+# DevSecOps Git Practice - <Your Name>
+## Date: YYYY-MM-DD
 
 ### 🔧 Git Configuration
-Configured Git with my name and email:
-```bash
-git config --global user.name "Deepak JM"
+git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 git config --list
-📁 Repository Setup
-Cloned the repository and created folder for today’s date:
 
-bash
-Copy code
-git clone git@github.com:ABDeepu98/WEEKEND_DEVSECOPS-task-DEEPAK-JM.git
-cd WEEKEND_DEVSECOPS-task-DEEPAK-JM
-mkdir 2025-08-16
-cd 2025-08-16
-touch task1.txt task2.txt task3.txt README.md
-📝 File Operations
-Add content to files
-bash
-Copy code
-echo "This is Task 1 content" >> task1.txt
-echo "This is Task 2 content" >> task2.txt
-echo "This is Task 3 content" >> task3.txt
-Clear content of a file
-bash
-Copy code
-> task2.txt       # empties task2.txt
-Move files to another folder
-bash
-Copy code
-mv task1.txt task2.txt 2025-08-16/   # moves multiple files into folder
-📦 Staging and Committing
-bash
-Copy code
+### 📁 Repository Setup
+git clone https://github.com/<your-username>/devsecops-tasks-<your-name>.git
+cd devsecops-tasks-<your-name>
+mkdir YYYY-MM-DD
+cd YYYY-MM-DD
+touch task1.txt task2.txt
+
+### 📦 Staging and Committing
 git status
 git add .
-git commit -m "Added tasks and performed file operations"
-🚀 Push to GitHub
-bash
-Copy code
+git commit -m "Initial commit with two task files"
+
+### 🔁 Making Changes
+echo "This is Task 1 content" >> task1.txt
+git status
+git add task1.txt
+git commit -m "Updated task1.txt with content"
+
+### 🧾 Logs and Show
+git log
+git show <commit-id>
+
+### 🚀 Push to GitHub
 git push origin main
-🔄 Pull Remote Changes
-bash
-Copy code
-git [A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C
 
-
-
-
-
+### 🔁 Pull Remote Changes
+git pull
