@@ -1,11 +1,11 @@
 # WEEKEND_DEVPOS-task-DEEPAK
 all Task are uploaded to this repo in form of readme.md file 
-# DevSecOps Git Practice - <Your Name>
-## Date: YYYY-MM-DD
+# DevSecOps Git Practice - <DEEPAK J  M >
+## Date: 2025-08-16
 
 ### 🔧 Git Configuration
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "DEEPAK J M"
+git config --global user.email "deepakjm98@gmail.com"
 git config --list
 
 ### 📁 Repository Setup
@@ -33,77 +33,8 @@ git show <commit-id>
 ### 🚀 Push to GitHub
 git push origin main
 
-### 🔁 Pull Remote Changes[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[B[A[A[B
-
-
-
-[F[F[F[F[F[F[F[F[H[H[H[F[F[F
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 🔁 Pull Remote Changes
+git pull
 
 
 asdf
