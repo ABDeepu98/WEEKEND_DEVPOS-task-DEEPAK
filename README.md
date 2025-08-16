@@ -34,7 +34,5 @@ git show <commit-id>
 git push origin main
 
 ### 🔁 Pull Remote Changes
-git pull
+ git pull
 
-
-asdf
